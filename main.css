@@ -1,0 +1,103 @@
+body {
+	text-align: center
+}
+.caja {
+	border: 1px solid black;
+	width: 598px;
+	height: 498px;
+	position: relative;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.header {
+	position: relative;
+	display: block;
+	border-bottom: 1px solid black;
+	background: #00C4A9;
+	top: 0;
+	width: 598px;
+}
+
+h3 {
+	margin: 0;
+	padding: 5px;
+}
+
+.footer {
+	position: relative;
+	display: inline-block;
+	border-top: 1px solid black;
+	background: #00C4A9;
+	bottom: 0px;
+	width: 598px;
+	height: 34px;
+}
+
+h5 {
+	margin: 0;
+	padding: 10px;
+}
+
+.container{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.colum1 {
+	position: relative;
+	border-right: 1px solid black;
+	margin: 0;
+	display: inline-block;
+	width: 150px;
+	height: 430px;
+	float: left;
+}
+
+.colum2 {
+	position: relative;
+	margin: 0;
+	display: inline-block;
+	width: 296px;
+	height: 430px;
+	float: left;
+}
+
+.colum3 {
+	position: relative;
+	border-left: 1px solid black;
+	margin: 0;
+	display: inline-block;
+	width: 150px;
+	height: 430px;
+	float: left;
+}
+
+p {
+	padding: 0 10px;
+	text-align: justify;
+}
+
+.colum2>p {
+	padding: 0 10%;
+}
+
+#mono1 {
+	position: relative;
+	display: inline-block;
+	width: 128px;
+	height: auto;
+}
+
+#mono2 {
+	position: relative;
+	display: inline-block;
+	width: 130px;
+	height: auto;
+	padding: 21px 0;
+}
+
+
